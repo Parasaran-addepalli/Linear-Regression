@@ -12,4 +12,5 @@ beta1 = ssxy/ssxx
 beta0 = sum(y)/len(y) - beta1*sum(x)/len(x)
 print("the line corresponding to the given data set is : y = "+str(beta1)+"x + "+str(beta0) )
 x = int(input("Enter x to predict y"))
+#y=mx+c
 print("y = "+str(beta1*x+beta0))
